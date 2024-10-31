@@ -8,7 +8,7 @@ const TaskList = () => {
     const [completed, setCompleted] = useState(false);
 
     useEffect(() => {
-        console.log("TaskList component mounted");
+        console.log("lista pronta");
     }, []);
 
     const handleSubmit = (e) => {
